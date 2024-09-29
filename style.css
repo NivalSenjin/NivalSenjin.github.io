@@ -1,0 +1,196 @@
+.wow {
+  width: 100px;
+}
+
+.body{
+  background-color: #000000;
+  background-image: url("stars.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+
+}
+
+.flex{
+  flexbox: space-between;
+}
+
+
+
+.card{
+  background-color: transparent;
+  padding: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  transition: 0.2s;
+  max-width: 250px;
+  margin: auto;
+  border:2px solid white;
+  border-radius :5px;
+}
+
+.card:hover {
+  transform: scale(1.09);
+  overflow: hidden;
+  box-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0979aa, 0 0 9px #3e7ce0, 0 0 12px #378cfb, 0 0 15px #0b49ad, 0 0 18px #002680; 
+background-color: #3d507e93;
+}
+
+.container {
+  padding: 2px 16px;
+  text-align:center;
+  color:whitesmoke;
+}
+
+.card button {
+  decoration: none;
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #1b1b1b;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.card button:hover {
+  opacity: 0.8;
+}
+
+
+
+.glow {
+  color: whitesmoke;
+  text-align: center;
+  text-shadow:0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0979aa, 0 0 40px #3e7ce0, 0 0 50px #378cfb, 0 0 60px #0b49ad, 0 0 70px #002680;
+}
+
+
+    .glow h1 {
+        color: whitesmoke;
+        text-shadow: 0px 0px 12px #378cfb;
+        font-size: 70px;
+    }
+
+
+    .glow p {
+        font-size: 30px;
+        color: whitesmoke;
+        text-shadow: 0px 0px 12px #378cfb;
+    }
+
+.Subheading{
+  color: whitesmoke;
+  text-align: center;
+  text-shadow:0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0979aa, 0 0 40px #3e7ce0, 0 0 50px #378cfb, 0 0 60px #0b49ad, 0 0 70px #002680;
+  font-size: 20px;
+  text-shadow: 0px 0px 12px #378cfb;
+  }
+
+
+
+ .profile_card {
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  background-color: transparent;
+  border:3px solid white;
+  border-radius :5px;  
+  color: white; 
+}
+
+.profile_card p {
+  font-size: 18px;
+}
+
+.profile_card button {
+ border: 1px antiquewhite;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  width: 80%;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.profile_card p{
+  color: white;
+}
+    .profile_card h3 {
+      color: white;
+      padding:10px;
+    }
+
+.profile_card:hover{
+   transform: scale(1.08);
+  transition: 0.2s;
+   box-shadow:0 0 3px #fff, 0 0 5px #fff, 0 0 10px #0979aa, 0 0 15px #3e7ce0, 0 0 20px #378cfb, 0 0 25px #0b49ad, 0 0 30px #002680; 
+}
+
+
+
+.profile_card button:hover, a:hover {
+  opacity: 0.8;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+    border:2px solid white;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: auto;
+}
+
+.bar {
+    padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  column-gap:50px;
+  column-width: auto;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 5px;
+  margin: 5px;
+}
+
+.grid-item {
+  background-color:transparent;
+  border: 2px solid whitesmoke;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.grid-item:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  box-shadow:0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0979aa, 0 0 40px #3e7ce0, 0 0 50px #378cfb, 0 0 60px #0b49ad, 0 0 70px #002680;
+  text-decoration: none;
+
+  }
+
+
+  .button:hover{
+   color: #1066f0; 
+   font-weight: bold;
+  }
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Full width on mobile */
+    }
